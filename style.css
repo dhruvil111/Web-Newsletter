@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('xkcd.jpg');
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.box {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-70%, -70%);
+    background: #fff;
+    padding: 60px 40px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.box h1 {
+    font-size: 36px;
+    color: #20D389;
+    margin-bottom: 15px;
+}
+
+.box span {
+    color: #999;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline-color: #20D389;
+    margin-bottom: 25px;
+}
+
+.box button {
+    width: 100%;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: #20D389;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.box hr {
+    width 70px;
+    color: #999;
+    margin: 25px auto;
+}
+
+.box button:hover {
+    background: #196b49;
+}
