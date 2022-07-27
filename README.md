@@ -1,5 +1,5 @@
 # Web-Newsletter
-It's a web newsletter for xkcd comics.
+It's a newsletter for xkcd comics.
 
 WHY ?
 Because Why Not??
